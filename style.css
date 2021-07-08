@@ -2,7 +2,7 @@ html {
     box-sizing: border-box;
 }
   
-*{
+* {
     box-sizing: inherit;
 }
 
@@ -19,6 +19,12 @@ ul li{
 .wrapper {
     display: flex;
     flex-direction: column;
+}
+
+/* --------- Header  -------- */
+
+.mobile-nav {
+    display: none;
 }
 
 /* --------- navigation menu ------- */
@@ -51,7 +57,7 @@ ul li{
     background-repeat: no-repeat;
     min-height: 100vh;
     justify-content: center;
-    padding: 180px 300px;
+    padding: 200px 320px;
 }
 
 .hero .headline {
@@ -68,7 +74,7 @@ ul li{
 }
 
 .primary h2 {
-    font-size: 45px;
+    font-size: 35px;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
@@ -81,13 +87,18 @@ ul li{
 
 .primary span {
     color: #36B37F;
-    ;
+}
+
+.support {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 0 80px;
 }
 
 .support p {
-    font-size: 18px;
+    font-size: 15px;
     color: #172B4D;
-    ;
 }
 
 /* -------- social ------- */
@@ -106,7 +117,7 @@ ul li{
 .social li a {
     padding: 0 10px;
     color: #172B4D;
-    ;
+    size: 10px;
 }
 
 
@@ -114,6 +125,43 @@ ul li{
      
 }
 
- @media all and (max-width:500px) {
+@media all and (max-width:500px) {
 
- }
+.nav-menu {
+    display: none;
+}
+
+.mobile-nav {
+     display: flex;
+     height: 50px;
+     border: 2px red solid;
+}
+
+.welcome h1 {
+    align-self: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-button {
+    display: flex;
+    align-self: flex-end;
+}
+
+.menu-button ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-button li {
+    padding: 20px 10px;
+}
+
+.bar {
+    width: 30px;
+    height: 2px;
+    background: black;
+}
+
+}
