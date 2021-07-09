@@ -14,192 +14,184 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-ul li{
-    list-style: none;
-    box-sizing: unset;
+ul li {
+  list-style: none;
+  box-sizing: unset;
 }
 
 .wrapper {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 /* --------- Header  -------- */
 
 .menu {
-    display: none;
+  display: none;
 }
 
 /* --------- navigation menu ------- */
 .nav-menu {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-menu ul {
-    display: flex;
-    width: fit-content;
-    position: fixed;
-    margin: 20px 0;
+  display: flex;
+  width: fit-content;
+  position: fixed;
+  margin: 20px 0;
 }
 
 .nav-menu li {
-    padding: 0 20px;
+  padding: 0 20px;
 }
 
 .nav-menu a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 /* --------- hero section ------- */
 
 .hero {
-    display: flex;
-    background-image: url(/portifolio-website/image/one.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    justify-content: center;
-    padding: 150px 320px;
+  display: flex;
+  background-image: url(/portifolio-website/image/one.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  justify-content: center;
+  padding: 150px 320px;
 }
 
 .hero .headline {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .place {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
 }
 
 .primary h2 {
-    font-size: 35px;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-family: Inter;
-    font-style: Extra Bold;
-    color: #172B4D;
-    ;
+  font-size: 35px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: Bold;
+  color: #172b4d;
 }
 
 .primary span {
-    color: #36B37F;
+  color: #36b37f;
 }
 
 .support {
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-    padding: 10px 80px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding: 10px 80px;
 }
 
 .support p {
-    font-size: 15px;
-    color: #172B4D;
+  font-size: 15px;
+  color: #172b4d
 }
 
 /* -------- social ------- */
 
 .social {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .social ul {
-    display: flex;
-    justify-content: center;
-    width: fit-content;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
 }
 
 .social li a {
+  padding: 0 10px;
+  color: #172b4d;
+  font-size: 20px;
+}
+
+@media all and (max-width: 500px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    flex-basis: 50%;
+    padding: 10px;
+  }
+
+  .menu-logo {
+    display: flex;
+    flex: 1;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu-logo h1 {
+    width: fit-content;
+    font-size: 20px;
+  }
+
+  .menu-button {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+  }
+
+  .menu-button ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 0 10px;
-    color: #172B4D;
-    size: 15px;
-}
+    margin: 0;
+    width: fit-content;
+  }
 
+  .menu-button li {
+    align-self: center;
+    padding: 2px;
+  }
 
-@media all and (max-width:1000px) {
-     
-}
+  .bar {
+    width: 20px;
+    background-color: rgb(32, 14, 14);
+    margin: 1px 0;
+  }
 
-@media all and (max-width:500px) {
+    /* ------- hero - section  ------ */
 
-    .nav-menu {
-        display: none;
-    }
+  .hero {
+    display: flex;
+    background-image: url(/portifolio-website/image/one.png);
+    background-size: cover;
+    padding: 50px 10px;
+    background-position: center;
+  }
 
-    .menu {
-        display: flex;
-        flex-basis: 50%;
-        padding: 10px;
-        justify-content: baseline;
-    }
+  .primary h2 {
+    font-size: 35px;
+  }
 
-    .menu-logo {
-        display: flex;
-        flex: 1;
-        padding: 0;
-        margin: 0;
-    }
+  .support {
+    padding: 20px;
+  }
 
-    .menu-logo h1 {
-        width: fit-content;
-        font-size: 20px;
-    }
-
-    .menu-button {
-        display: flex;
-        flex: 1;
-        justify-content: flex-end;
-    }
-
-    .menu-button ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 0 10px;
-        margin: 0;
-        width: fit-content;
-    }
-
-    .menu-button li {
-        align-self: center;
-        padding: 2px;
-    }
-
-    .bar {
-        width: 20px;
-        background-color: rgb(32, 14, 14);
-        margin: 1px 0;
-    }
-
-    /* ------- hero - section  ------*/
-
-    .hero {
-        display: flex;
-        background-image: url(/portifolio-website/image/one.png);
-        background-size: cover;
-        padding: 50px 10px;
-        background-position: center;
-    }
-
-    .primary h2 {
-        font-size: 35px;
-    }
-
-    .support {
-        padding : 20px;
-    }
-
-    .social ul {
-        padding: 0;
-    }
+  .social ul {
+    padding: 0;
+  }
 
 }
