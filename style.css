@@ -32,7 +32,7 @@ ul li {
 
 /* --------- navigation menu ------- */
 .nav-menu {
-    display: flex;
+  display: flex;
   justify-content: center;
 }
 
