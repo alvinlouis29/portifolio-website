@@ -40,6 +40,7 @@ ul li{
     display: flex;
     width: fit-content;
     position: fixed;
+    margin: 20px 0;
 }
 
 .nav-menu li {
@@ -60,7 +61,7 @@ ul li{
     background-repeat: no-repeat;
     min-height: 100vh;
     justify-content: center;
-    padding: 200px 320px;
+    padding: 80px 250px;
 }
 
 .hero .headline {
@@ -96,7 +97,7 @@ ul li{
     display: flex;
     text-align: center;
     justify-content: space-around;
-    padding: 0 80px;
+    padding: 10px 20px;
 }
 
 .support p {
@@ -120,7 +121,7 @@ ul li{
 .social li a {
     padding: 0 10px;
     color: #172B4D;
-    size: 10px;
+    size: 15px;
 }
 
 
