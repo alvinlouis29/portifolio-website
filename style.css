@@ -32,7 +32,7 @@ ul li {
 
 /* --------- navigation menu ------- */
 .nav-menu {
-  display: flex;
+    display: flex;
   justify-content: center;
 }
 
@@ -140,7 +140,7 @@ ul li {
     margin: 0;
   }
 
-  .menu-logo h1 {
+  .menu-logo a {
     width: fit-content;
     font-size: 20px;
   }
@@ -174,9 +174,6 @@ ul li {
   /* ------- hero - section  ------ */
 
   .hero {
-    display: flex;
-    background-image: url(/portifolio-website/image/one.png);
-    background-size: cover;
     padding: 50px 10px;
     background-position: center;
   }
