@@ -19,6 +19,10 @@ ul li {
   box-sizing: unset;
 }
 
+a {
+  text-decoration: none;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -153,7 +157,10 @@ h1 {
 }
 
 .card h1 {
-  font-size: 25px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  padding: 16px;
 }
 
 .sane {
@@ -178,10 +185,11 @@ h1 {
 .category a {
   background-color: #ebf0ee;
   border-radius: 2px;
-  padding: 2px 8px;
+  padding: 12px 8px;
   margin: 0 4px;
-  text-decoration: none;
   color: #172b4d;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .open {
@@ -194,9 +202,9 @@ h1 {
   background-color: #36b37f;
   border-radius: 2px;
   color: white;
-  padding: 2px 8px;
+  padding: 12px;
   margin: 5px 4px;
-  text-decoration: none;
+  font-size: 17px;
 }
 
 /* ------- About ------ */
@@ -205,10 +213,14 @@ h1 {
   padding: 20px 200px;
 }
 
+.about h1 {
+  font-size: 40px;
+}
+
 .about p {
   text-align: center;
   padding: 40px 80px;
-  font-size: 15px;
+  font-size: 20px;
   color: #172b4d;
 }
 
@@ -219,10 +231,11 @@ h1 {
 
 .resume a {
   background-color: #36b37f;
+  border-radius: 2px;
   color: white;
-  padding: 2px 8px;
-  margin: 0 4px;
-  text-decoration: none;
+  padding: 12px;
+  margin: 5px 4px;
+  font-size: 17px;
 }
 
 @media all and (max-width: 500px) {
@@ -321,7 +334,14 @@ h1 {
     padding: 20px 0;
   }
 
-  .category a {
-    font-size: 13px;
+  /* --------- About ------- */
+
+  .about {
+    padding: 10px 5px;
   }
+
+  .about p {
+    padding: 2px;
+  }
+
 }
