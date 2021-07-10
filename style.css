@@ -83,7 +83,7 @@ a {
 }
 
 .primary h2 {
-  font-size: 55px;
+  font-size: 35px;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
@@ -104,7 +104,7 @@ a {
 }
 
 .support p {
-  font-size: 25px;
+  font-size: 15px;
   color: #172b4d;
 }
 
@@ -239,7 +239,7 @@ h1 {
 .social li a {
   padding: 0 10px;
   color: #172b4d;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 /* ------- Skills ------ */
