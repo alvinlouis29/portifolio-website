@@ -130,18 +130,22 @@ ul li {
 
 .recent_title h1 {
   text-align: center;
+  font-size: 35px;
+  color: #172b4d;
 }
 
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 40%);
-  border: 2px green solid;
+  padding: 0;
 }
 
 .card {
+  align-self: center;
+  justify-self: center;
   margin-top: 150px;
-  min-height: 350px;
+  min-height: 400px;
   width: 340px;
   border: 1px #ebf0ee solid;
 }
@@ -158,12 +162,15 @@ ul li {
 
 .content h1 {
   text-align: center;
+  padding: 20px 0;
   color: #172b4d;
+  font-size: 20px;
 }
 
 .category {
   display: flex;
   justify-content: center;
+  padding: 20px 0;
   padding: 10px;
 }
 
