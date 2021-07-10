@@ -210,6 +210,10 @@ h1 {
 /* ------- About ------ */
 
 .about {
+  background-image: url(/portifolio-website/image/about.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
   padding: 20px 200px;
 }
 
@@ -236,6 +240,21 @@ h1 {
   padding: 12px;
   margin: 5px 4px;
   font-size: 17px;
+}
+
+.skill {
+  display: grid;
+  grid-template-columns: repeat(3, 327px);
+  grid-template-rows: 352px;
+  justify-content: center;
+  grid-column-gap: 20px;
+  padding: 50px;
+}
+
+.weight {
+  background-color: #ebf0ee;
+  border: 1px #a0a0a0 solid;
+  border-radius: 10px;
 }
 
 @media all and (max-width: 500px) {
@@ -337,11 +356,14 @@ h1 {
   /* --------- About ------- */
 
   .about {
-    padding: 10px 5px;
+    padding: 20px 15px;
+    background-image: url(/portifolio-website/image/about-mobile.png);
+    background-position: top;
+    background-size: contain;
   }
 
   .about p {
-    padding: 2px;
+    padding: 30px 10px;
   }
 
 }
