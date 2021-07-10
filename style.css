@@ -121,12 +121,6 @@ a {
   width: fit-content;
 }
 
-.social li a {
-  padding: 0 10px;
-  color: #172b4d;
-  font-size: 20px;
-}
-
 /* ---- My Recents Works ------ */
 
 .recent_works {
@@ -242,6 +236,13 @@ h1 {
   font-size: 17px;
 }
 
+.social li a {
+  padding: 0 10px;
+  color: #172b4d;
+  font-size: 20px;
+}
+
+
 /* ------- Skills ------ */
 
 .skill {
@@ -291,7 +292,7 @@ h1 {
 }
 
 .weight li a {
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 2px;
   padding: 10px;
   margin: 10px 4px;
@@ -408,6 +409,7 @@ h1 {
   .about p {
     padding: 30px 10px;
   }
+
   /* ------- Skills ------ */
 
   .skill {
