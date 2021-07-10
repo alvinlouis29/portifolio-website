@@ -122,6 +122,77 @@ ul li {
   font-size: 20px;
 }
 
+/* ---- My Recents Works ------ */
+
+.recent_works {
+  padding: 20px 100px;
+  border: 2px red solid;
+}
+
+.recent_title h1 {
+  text-align: center;
+  border: 2px green solid;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 28% 28% 28%;
+  grid-template-rows: 25% 25% 25%;
+  border: 2px green solid;
+  padding: 0;
+  grid-gap: 80px;
+}
+
+.card {
+  height: 500px;
+  width: 350px;
+  background-color: yellow;
+  border: 1px #ebf0ee solid;
+}
+
+.sane {
+  height: 200px;
+  background-color: #ebf0ee;
+  background-position: center;
+}
+
+.content {
+  background-color: white;
+}
+
+.content h1 {
+  text-align: center;
+  color: #172b4d;
+}
+
+.category {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.category a {
+  background-color: #ebf0ee;
+  padding: 2px 8px;
+  margin: 0 4px;
+  text-decoration: none;
+  color: #172b4d;
+}
+
+.open {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.open a {
+  background-color: #36b37f;
+  color: white;
+  padding: 2px 8px;
+  margin: 0 4px;
+  text-decoration: none;
+}
+
 @media all and (max-width: 500px) {
   .nav-menu {
     display: none;
