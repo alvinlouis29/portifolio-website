@@ -61,7 +61,7 @@ a {
 
 .hero {
   display: flex;
-  background-image: url(/image/one.png);
+  background-image: url("/portifolio-website/image/one.png");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -83,7 +83,7 @@ a {
 }
 
 .primary h2 {
-  font-size: 35px;
+  font-size: 55px;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
@@ -104,7 +104,7 @@ a {
 }
 
 .support p {
-  font-size: 15px;
+  font-size: 25px;
   color: #172b4d;
 }
 
@@ -204,7 +204,7 @@ h1 {
 /* ------- About ------ */
 
 .about {
-  background-image: url(/image/about.png);
+  background-image: url("/portifolio-website/image/about.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -239,7 +239,7 @@ h1 {
 .social li a {
   padding: 0 10px;
   color: #172b4d;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 /* ------- Skills ------ */
@@ -400,7 +400,7 @@ h1 {
 
   .about {
     padding: 20px 15px;
-    background-image: url(/image/about-mobile.png);
+    background-image: url("/portifolio-website/image/about-mobile.png");
     background-position: top;
     background-size: contain;
   }
