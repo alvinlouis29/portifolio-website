@@ -61,7 +61,7 @@ a {
 
 .hero {
   display: flex;
-  background-image: url(/portifolio-website/image/one.png);
+  background-image: url(/image/one.png);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -204,7 +204,7 @@ h1 {
 /* ------- About ------ */
 
 .about {
-  background-image: url(/portifolio-website/image/about.png);
+  background-image: url(/image/about.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -400,7 +400,7 @@ h1 {
 
   .about {
     padding: 20px 15px;
-    background-image: url(/portifolio-website/image/about-mobile.png);
+    background-image: url(/image/about-mobile.png);
     background-position: top;
     background-size: contain;
   }
