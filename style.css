@@ -31,6 +31,7 @@ ul li {
 }
 
 /* --------- navigation menu ------- */
+
 .nav-menu {
   display: flex;
   justify-content: center;
@@ -39,8 +40,8 @@ ul li {
 .nav-menu ul {
   display: flex;
   width: fit-content;
-  position: fixed;
   margin: 20px 0;
+  position: fixed;
 }
 
 .nav-menu li {
@@ -128,7 +129,7 @@ ul li {
   padding: 60px 70px;
 }
 
-.recent_title h1 {
+h1 {
   text-align: center;
   font-size: 35px;
   color: #172b4d;
@@ -164,7 +165,7 @@ ul li {
   text-align: center;
   padding: 20px 0;
   color: #172b4d;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .category {
@@ -189,6 +190,32 @@ ul li {
 }
 
 .open a {
+  background-color: #36b37f;
+  color: white;
+  padding: 2px 8px;
+  margin: 5px 4px;
+  text-decoration: none;
+}
+
+/* ------- About ------ */
+
+.about {
+  padding: 20px 200px;
+}
+
+.about p {
+  text-align: center;
+  padding: 40px 80px;
+  font-size: 15px;
+  color: #172b4d;
+}
+
+.resume {
+  justify-content: center;
+  display: flex;
+}
+
+.resume a {
   background-color: #36b37f;
   color: white;
   padding: 2px 8px;
