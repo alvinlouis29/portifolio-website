@@ -125,28 +125,24 @@ ul li {
 /* ---- My Recents Works ------ */
 
 .recent_works {
-  padding: 20px 100px;
-  border: 2px red solid;
+  padding: 60px 70px;
 }
 
 .recent_title h1 {
   text-align: center;
-  border: 2px green solid;
 }
 
 .cards {
   display: grid;
-  grid-template-columns: 28% 28% 28%;
-  grid-template-rows: 25% 25% 25%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 40%);
   border: 2px green solid;
-  padding: 0;
-  grid-gap: 80px;
 }
 
 .card {
-  height: 500px;
-  width: 350px;
-  background-color: yellow;
+  margin-top: 150px;
+  min-height: 350px;
+  width: 340px;
   border: 1px #ebf0ee solid;
 }
 
